@@ -77,14 +77,14 @@ body {
 .slide:nth-child(2) h1,
 .slide:nth-child(2) p {
   position: absolute;
-  top: 50px;
+  top: 95px;
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
 }
 .slide:nth-child(2) p {
   font-size: 1rem;
-  top: 95px;
+  top: 142px;
   text-wrap: nowrap;
 }
 
