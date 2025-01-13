@@ -58,35 +58,46 @@ body {
   }
 }
 
+.slide:nth-child(1) h1,
+.slide:nth-child(1) p {
+  position: absolute;
+  transform: translate(-50%, 50%);
+  margin: 0;
+  text-wrap: nowrap;
+}
+
+.slide:nth-child(1) p {
+  font-size: 1rem;
+  transform: translateY(300%);
+  text-wrap: nowrap;
+}
+
 /* Custom styling for second slide text position */
 .slide:nth-child(2) h1,
 .slide:nth-child(2) p {
   position: absolute;
-  top: 50px; /* Position text at the top of the slide */
+  top: 50px;
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
 }
-
-
-
 .slide:nth-child(2) p {
   font-size: 1rem;
   top: 95px;
   text-wrap: nowrap;
 }
 
-.bgh{
-    background-color: yellow;
-    border-radius: .5rem;
-    padding: 0.4rem;
-    color: #555;
-    text-shadow: none;
+.bgh {
+  background-color: yellow;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  color: #555;
+  text-shadow: none;
 }
-.bgp{
-    background-color: red;
-    border-radius: .5rem;
-    padding: 0.4rem;
-    color: black;
-    text-shadow: none;
+.bgp {
+  background-color: red;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  color: black;
+  text-shadow: none;
 }
