@@ -18,7 +18,7 @@ body {
   display: none;
   text-align: center;
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
 }
 
 .slide.active {
@@ -27,7 +27,7 @@ body {
 
 .navigation {
   position: absolute;
-  bottom: 20px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -50,11 +50,11 @@ body {
 
 @media (max-width: 768px) {
   .slide h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .slide p {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -62,24 +62,31 @@ body {
 .slide:nth-child(2) h1,
 .slide:nth-child(2) p {
   position: absolute;
-  top: 20px; /* Position text at the top of the slide */
+  top: 50px; /* Position text at the top of the slide */
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
 }
 
-.slide:nth-child(2) h1 {
-  font-size: 2rem;
-}
+
 
 .slide:nth-child(2) p {
   font-size: 1rem;
-  margin-top: 55px;
+  top: 95px;
+  text-wrap: nowrap;
 }
 
-
 .bgh{
-    background-color: rgba(255, 255, 0, 0.849);
-    border-radius: 1rem;
-    padding: .2rem;
+    background-color: yellow;
+    border-radius: .5rem;
+    padding: 0.4rem;
+    color: #555;
+    text-shadow: none;
+}
+.bgp{
+    background-color: red;
+    border-radius: .5rem;
+    padding: 0.4rem;
+    color: black;
+    text-shadow: none;
 }
